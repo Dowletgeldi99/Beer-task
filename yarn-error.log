@@ -1,0 +1,80 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add htmlHtmlWebpackPlugin
+
+PATH: 
+  C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Windows Resource Kits\Tools\;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\composer;C:\Program Files (x86)\Yarn\bin\;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Asus\AppData\Roaming\npm;C:\Users\Asus\AppData\Roaming\Composer\vendor\bin;C:\Users\Asus\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/htmlHtmlWebpackPlugin: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:223:5)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:223:5)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:312:28)
+      at IncomingMessage.emit (events.js:228:7)
+      at endReadableNT (_stream_readable.js:1185:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+
+npm manifest: 
+  {
+    "main": "index.js",
+    "version": "1.0.0",
+    "scripts": {
+      "proj:start": "webpack-dev-server --open --mode development",
+      "build": "webpack --mode production",
+      "serv": "static build"
+    },
+    "rules": {
+      "no-missing-end-of-source-newline": null
+    },
+    "devDependencies": {
+      "@babel/core": "^7.10.2",
+      "@babel/preset-env": "^7.10.2",
+      "@vue/cli": "^4.4.1",
+      "@vue/cli-service-global": "^4.4.1",
+      "babel": "^6.23.0",
+      "babel-loader": "^8.1.0",
+      "body-parser": "^1.19.0",
+      "css-loader": "^3.5.3",
+      "element-ui": "^2.13.2",
+      "fs": "^0.0.1-security",
+      "html-webpack-plugin": "^4.3.0",
+      "path": "^0.12.7",
+      "sass-loader": "^8.0.2",
+      "ts-loader": "^7.0.5",
+      "url-loader": "^4.1.0",
+      "vue-loader": "^15.9.2",
+      "vue-template-compiler": "^2.6.11",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.11",
+      "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+      "array-flatten": "^3.0.0",
+      "axios": "^0.19.2",
+      "depd": "^2.0.0",
+      "node-sass": "^4.14.1",
+      "vue": "^2.6.11",
+      "vue-flag-icon": "^1.0.6",
+      "vue-i18n": "^8.18.2",
+      "vue-router": "^3.3.2",
+      "vue-style-loader": "^4.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
